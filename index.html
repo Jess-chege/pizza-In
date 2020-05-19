@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <link rel="stylesheet" href="css/style.css">
+     <style>
+     .header{
+       padding: 80px;
+       text-align: center;
+
+     }
+     .topnav {
+       overflow: hidden;
+     }
+      .topnav a{
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+
+      }
+      .topnav a.hover{
+        background-color: #ddd;
+        color: black;
+
+      }
+      .topnav a.active {
+        background-color:
+      }
+      .h1 {
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+      }
+      body{
+        background-image:
+       h1 {color: blue;}
+       p {color: red;}
+      }
+      .h1{
+        text-align: center;
+      }
+
+
+      </style>
+    </head>
+      <body style="background-color:powderblue;">
+
+        <h1>PIZZA-IN</h1>
+
+
+          <div class="topnav">
+            <style>
+            .center {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width=50%;
+            }
+            </style>
+            <div class="logo">
+      <img src="logo2.png "alt="logo2" class="center"/>
+      </div>
+            <a class="active"
+
+                       href="#menus">Menu</a>
+                      <a href="#order">orders</a>
+                      <a href="#contacts">contacts</a>
+
+
+
+          </nav>
+            </div>
+            <div class="welcome">
+                <div class="overlay">
+                    <div class="welcome-text">
+
+                        <h2 class="text-white text-center">Karibu pizza tamu</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="menus"></div>
+            <br>
+            <div class="menu col-md-12">
+                <div class="menu-overlay">
+                    <h1 class="text-center text-white" id="menu">Menu</h1>
+                    <div class="pizza-menu row text-center">
+                        <figure class="col-md-12">
+                            <img src="images/menu.jpg" alt="menu" class="wiggle">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="orders" id="order">
+                <h1 class="text-centre" id="order-pizza">Order your Pizza</h1>
+                <div class="form-group row">
+                    <div class="col-sm-8 orderoverlay text-center">
+                        <form class="col-sm-6 oofset-sm-3 text-center">
+                            <label>Select your favourite Pizza:</label>
+                            <select class="custom-select custom-select-md mb-3 flavour" required>
+                                <option value="Hawaiian">Hawaiian</option>
+                                <option value="Meaty">Meaty</option>
+                                <option value="Beef steak">Beef steak</option>
+                                <option value="Club">Club</option>
+                                <option value="Four seasons">Four seasons</option>
+                                <option value=""></option></br>/</br>
+                                <option value="Tikka chicken">Tikka chicken</option>
+                                <option value="Chicken Mushroom">Chicken Mushroom</option>
+                                <option value="Sweet chilli Chicken">Sweet chilli Chicken</option>
+                                <option value="BBQ chicken">BBQ chicken</option>
+                                <option value="Sweet & Sour chicken">Sweet & Sour chicken</option>
+                                <option value="Peri-peri chicken">Peri-peri chicken</option>
+                                <option value=""></option>
+                                <option value="Seasonal Veggie">Seasoanl Veggie</option>
+                                <option value="Cheese">Cheese</option>
+                                <option value="Red Hot Veggie">Red Hot Veggie</option>
+                            </select></br></br>
+
+                            <label>choose your preferred size:</label>
+                            <select class="custom-select custom-select-md mb-3 flavour" required>
+                                <option value="Regular">small</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                            </select></br> </br>
+                            <label>choose your favourite crust</label>
+                            <select class="custom-select custom-select-md mb-3 flavour" required>
+                                <option value="Thin & Crispy">Thick & Crispy @ ksh 200</option>
+                                <option value="Thick crust">Thick crust @ ksh 300</option>
+                                <option value="FlatBread crust">Bread crust @ ksh 400</option>
+                                <option value="Custom crust">Custom crust</option>
+                            </select></br></br>
+                            <label>select your Toppings</label>
+                            <select class="custom-select custom-select-md mb-3 flavour" required>
+                                <option value="Pineapple">Pineapple @ ksh 50</option>
+                                <option value="Sweet Corn">Sweet corn @ ksh 50</option>
+                                <option value="Green pepper">Green pepper @ ksh 60</option>
+                                <option value="Tomato">Tomato @ ksh 70</option>
+                                <option value="onion">Onion @ ksh 40</option>
+                                <option value="Mushroom">Mushroom @ ksh 100</option>
+                                <option value="Macon">Macon @ ksh 200</option>
+                                <option value="Mince">Mince @ ksh 110</option>
+                                <option value="Beef Peperoni">Beef Peperoni @ ksh 110</option>
+                                <option value="Peri-peri chicken">Peri-peri Chicken @ ksh 120</option>
+                            </select></br></br>
+                            <label for="number">Number of Pizza's</label>
+                            <input type="number" class="form-control" id="number" placeholder="Number of Pizza's">
+                        </form></br>
+
+                    </div>
+                </div>
+            </div>
+            <div class="customer data-overlay">
+                <div class="show position row">
+                    <div class="col-sm-3"></div>
+                    <form action="" class="form-group col-sm-6 data">
+                        <input type="text" class="form-control customer data" placeholder="Enter your Name">
+                        <input type="text" class="form-control customer data" placeholder="Enter the location">
+                    </form>
+                </div>
+                <div class="text-center">
+                  <p>please pin your location</p>
+
+                    <button class='deliver'>Make delivery</button></br></br>
+                      <a href="https://www.googlemaps.com/">
+                      <img src="google-maps.png" alt="googlemaps"></a>
+                      <p> no delivery please choose pick up branch</p></br>
+
+                    <button class='No-Delivery'>Pick Up
+                      <select class="custom-select custom-select-md mb-3 branches" required>
+                          <option value="thika road">Thika road</option>
+                          <option value="Westlands">Westlands</option>
+                        </select>
+                    </button></br>
+                </div>
+            </div></br>
+
+          <form oninput="x.value=parseInt(a.value)+parseInt(b.value)"
+          <input type="range" id="total" value="50">4000
+          +<input type="number" id="Toppings" value="200">
+          =<output name="total" for="a b" value="200">
+          </output>
+        </form>
+            <div class="checkout-panel">
+                <div class="panel-body">
+                  <h3 class="title">Total to be paid</h3>
+
+                  <div class="progress-bar">
+                    <div class="step active"></div>
+                    <div class="step active"></div>
+                    <div class="step"></div>
+                    <div class="step"></div>
+                  </div>
+
+                  <div class="payment-method">
+                    <label for="M-Pesa" class="method mpesa">
+                      <div class="mpesa-logos">
+                        <div class="align-Left">
+
+                        <img src="mpesa-logo.png"/>
+                      </div>
+                      </div>
+
+                      <div class="radio-input">
+                        <input id="mpesa" type="radio" name="payment">
+                        Pay your total with M-pesa
+                      </div>
+                    </label>
+                </div>
+                <a href="#pizza">
+                    <button type="submit" class="btn btn-success checkout" id="Your Order">
+                        Make Your Order
+                    </button>
+                </a></br></br>
+
+
+
+
+                   <div class="footer">
+                     <style>
+                     .footer {
+                       position: Right;
+                       left: 0;
+                       bottom: 0;
+                       width: 50%;
+                       background-color: red;
+                       color: white;
+                       text-align: center;
+                     }
+                     </style>
+                      <div id="contacts"></div>
+                      <h4>contacts</h4>
+                        <p>For feedback please call us on: +25471056295 or email us on chegejes@gmail.com</p>
+                    </footer>
+
+                </div>
+                </div>
+</body>
+</html>
